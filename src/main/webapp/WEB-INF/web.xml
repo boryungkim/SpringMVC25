@@ -28,7 +28,7 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 	
-		<!-- p243 post 방식 한글화 -->
+	<!-- p243 post 방식 한글화 -->
 	<filter>
 		<filter-name>encoding</filter-name>
 		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -43,4 +43,3 @@
 	</filter-mapping>
 
 </web-app>
-
